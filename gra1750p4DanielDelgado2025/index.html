@@ -5,50 +5,64 @@
 <title>Halloween Party Invitation</title>
 <style>
 body {
-    margin: 0;
-    background-color: rgba(216,97,0,1.00);
+	margin: 0;
+	background-color: rgba(216,97,0,1.00);
 }
 wrapper {
-    align-content: center;
-    text-align: center;
-    width: 700px;
-    height: 600px;
-    padding: 20px;
-    margin: 150px auto;
-    display: block;
-    background-color: rgba(255,255,255,.5);
-	border: thick solid rgba(20,25,56,.75);
-	
+	align-content: center;
+	text-align: center;
+	width: 700px;
+	height: 600px;
+	padding: 20px;
+	margin: 150px auto;
+	display: block;
+	background-color: rgba(255,255,255,.40);
+	box-shadow: 0 0 20px 10px rgba(20,25,56,.75);
 }
 #house {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -10;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -10;
 }
-	h1{
-		font-size: 70px;
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-		color: #141938;
-	}
-	h2{
-		font-size: 25px;
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-		color: #141938;
-	}
-	h3{
-		color: #141938;
-		font-size: 22px;
-	}
-	h4{
-		color: #141938;
-		font-size: 20px;
-	}
+h1 {
+	font-size: 95px;
+	font-family: "Metal Mania", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #141938;
+	margin: 0;
+}
+h2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 25px;
+	color: #141938;
+	margin-bottom: 10px
+}
+h3 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #141938;
+	font-size: 22px;
+}
+h4 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #141938;
+	font-size: 20px;
+}
+.topmargin {
+	margin-top: 5px;
+}
+p {
+	margin-bottom: 0px;
+}
 </style>
 </head>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Metal+Mania&display=swap" rel="stylesheet">
 <body>
 <video autoplay muted loop id="house">
   <source src="house.mp4" type="video/mp4">
@@ -56,7 +70,7 @@ wrapper {
 <wrapper>
   <h2>You're Invited to Our Spooktacular Halloween Party!</h2>
   <h1>Halloween Party</h1>
-  <h2>October 31st 8:45 PM</h2>
+  <h2 class="topmargin">October 31st 8:45 PM</h2>
   <h3>Located at Bayside Haunted Hall</h3>
   <h4>Bayside Haunted Hall</h4>
   <h4>2000 Phantom Way, Miami, Fl 33100</h4>
